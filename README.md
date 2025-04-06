@@ -1,0 +1,1 @@
+docker build -t msi2:1.0 .

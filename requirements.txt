@@ -1,0 +1,10 @@
+numpy
+nbconvert
+scipy
+matplotlib
+networkx
+pandas
+pyarrow
+scikit-learn
+humanize
+seaborn
