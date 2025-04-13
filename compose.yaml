@@ -1,12 +1,12 @@
 services:
   jupyter:
-    image: msi2:1.0
+    image: msi2:1.1
     ports:
       - 8888:8888
     volumes:
       - type: bind
         source: /Users/rafalrak/studia/msi2
-        target: /home/jovyan/msi2
+        target: /home/jovyan/work
 
 volumes:
   jupyter-data:
