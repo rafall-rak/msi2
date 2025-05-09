@@ -8,3 +8,6 @@ pyarrow
 scikit-learn
 humanize
 seaborn
+fastapi[standard]
+uvicorn
+httpx

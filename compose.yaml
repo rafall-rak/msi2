@@ -1,6 +1,6 @@
 services:
   jupyter:
-    image: rafall-rak/msi2-gpu:1.1
+    image: rafall-rak/msi2-gpu:1.2
     deploy:
       resources:
         reservations:
@@ -10,6 +10,7 @@ services:
               capabilities: [gpu]
     ports:
       - 8888:8888
+      - 8000:8000
     volumes:
       - type: bind
         source: /home/rrak/msi2
