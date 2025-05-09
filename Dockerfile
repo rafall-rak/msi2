@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
 
-FROM jupyter/base-notebook:ubuntu-22.04
+FROM quay.io/jupyter/pytorch-notebook:cuda12-python-3.11.8
 COPY ./requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt

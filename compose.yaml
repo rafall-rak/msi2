@@ -1,11 +1,18 @@
 services:
   jupyter:
-    image: msi2:1.1
+    image: rafall-rak/msi2-gpu:1.1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     ports:
       - 8888:8888
     volumes:
       - type: bind
-        source: /Users/rafalrak/studia/msi2
+        source: /home/rrak/msi2
         target: /home/jovyan/work
 
 volumes:
