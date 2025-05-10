@@ -12,3 +12,5 @@ fastapi[standard]
 uvicorn
 httpx
 pytest
+gdown
+keras

@@ -1,3 +1,7 @@
+msi2-lab05/src/ex03/MNIST/
+msi2-lab05/src/ex03/models/
+msi2-lab05/src/ex04/celeba/
+msi2-lab05/src/ex04/models/
 data/
 .DS_Store
 *.pickle
